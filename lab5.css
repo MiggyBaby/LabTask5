@@ -1,0 +1,104 @@
+header {
+    text-align: center;
+    border-style: groove;
+    background: darkkhaki;
+
+}
+
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;   
+    text-align: center;
+}
+
+div.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.Nav {
+    background: khaki;
+    border-style: groove;
+    height: 30px;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+a.cpe {
+    float: right;
+}
+
+div.school{
+    width: 850px;
+    height: 450px;
+    background-color: darkkhaki;
+    padding: 1%;
+    margin: 1%;
+    border-style: groove;
+}
+
+div.me{
+    width: 350px;
+    height: 600px;
+    background-color: darkkhaki;
+    padding: 1%;
+    margin: 1%;
+    border-style: groove;
+    float: right;
+}
+
+div.cea{
+    width: 850px;
+    height: 850px;
+    background-color: darkkhaki;
+    padding: 1%;
+    margin: 1%;
+    border-style: groove;
+}
+
+div.food {
+    width: 350px;
+    height: 600px;
+    background-color: darkkhaki;
+    padding: 1%;
+    margin: 1%;
+    border-style: groove;
+    float: right;
+}
+.DarkMode {
+    background-color: saddlebrown;
+    color: white
+}
+.LightMode {
+    background-color: yellow;
+    color: black;
+}
+
+li{
+    font-size: 20%;
+    text-align:justify;
+}
+
+p {
+    text-align: justify;
+}
+
+h5 {
+    font-size: 125%;
+}
+
+footer {
+    border-style: groove;
+    background: khaki;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    padding: 1%;
+    font-weight: 100;
+}
